@@ -1,0 +1,485 @@
+/* Header & features which are same in all pages */
+body{
+	background-color: white;
+	width: 1100px;
+	height:450px;
+	margin: 0 auto;		
+	padding-top: 10px;
+	
+}
+
+.topnav {
+    background-color: #AC0000;
+    overflow: hidden;
+	
+}
+
+.topnav a.navleft {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a.navright {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover {
+    background-color: #FF5724;
+    color: black;
+}
+img.Weekend{
+	width: 50%;
+    height:200px;
+}
+
+form.search{
+	float:right;
+}
+button.Search{
+	background-color: #FF5724;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 60px;
+	height: 30px;
+}
+
+h1{
+	color:#AC0000;
+	text-align:center;
+	font-family:cursive;
+	font-size:35px;
+	text-shadow: 2px 2px black;
+	padding:10px;
+	
+}
+h2{
+	color:#AC0000;
+	text-align:center;
+	font-family:cursive;
+}
+
+/* login page features */
+form.login {
+    border: 3px solid #f1f1f1;
+	width: 500px;
+	height: 550px;
+	margin: auto;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+	
+}
+
+
+img.avatar {
+    border-radius: 50%;
+	width:150px;
+	height:150px;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+.admin {
+	text-align:center;
+}
+
+/* Subscription page features */
+h3{
+	color:#FF5724;
+	text-align:center;	
+}
+button.cancelbtn1,.signupbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    
+}
+.signupbtn{
+	background-color: #4CAF50;
+	float: left;
+    width: 20%;
+	height: 10%;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Contact Us page features */	
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;   
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color:#4CAF50 ;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 100px;
+	height: 50px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	width: 800px;	
+	margin: auto;
+	
+}
+h5{
+	color:#AC0000;
+	text-align:center;	
+}
+
+
+/*Management page features */
+
+
+
+h4{
+	color:#AC0000;
+	text-align:center;
+	font-size:50px;
+}
+h6{
+	color:#FF5724;
+	text-align:center;
+	font-size:30px;
+	
+}
+p{
+	font-size:17px;
+}
+body {font-family: Georgia;}
+
+div.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #AC0000;    
+    height: 1340px;
+}
+
+div.tab button {
+    display: block;
+    background-color: #AC0000;
+    color: white;
+    padding: 22px 16px;
+    width:190px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+div.tab button:hover {
+    background-color: #FF5724;
+}
+
+div.tab button.active {
+    background-color: #FF5724;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 10px;
+    border: 3px solid #ccc;   
+    border-left: none;
+	height: 1340px;
+	width:880px;
+	background-color: #f2f2f2;
+}
+
+button.update {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+button.update2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.delete {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button.create {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+	cursor: not-allowed;
+    width: 50%;
+	opacity: 0.6;
+}
+
+fieldset.sub{
+	width:80%;
+	
+}
+
+input[type=button]{
+	
+    background-color: #AC0000;
+    color: white;
+    padding: 22px 16px;
+    width:190px;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+	font-weight:bold;
+}
+input[type=button]:hover {
+    background-color: #FF5724;
+}
+div.ProdInfo{
+	width:100%;
+    height:5cm;
+    overflow:auto;
+	white-space:nowrap;
+}
+
+/*Catalogue page features */
+
+div.catalogue {
+    margin: auto;
+    border: 2px solid grey;
+    float: left;
+    width: 270px;	
+}
+
+div.catalogue:hover {
+    border: 1px solid #777;
+}
+
+div.catalogue img {
+    width: 230px;
+	height: 220px;
+   
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+	color:red;
+}
+
+div.cataloguefooter{
+	
+	position: relative;
+	bottom: -80px;
+}
+img.catalogue{
+	width: 60%;
+    height:100px;
+}
+
+
+/*Browse page features */
+img.Bmg{
+	width: 200px;
+    height:200px;
+}
+img.boffer{
+	width: 70%;
+    height:180px;
+}
+
+button.accordion {
+    background-color: #AC0000;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+	font-weight:bold;
+	font-size:16px;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #FF5724;
+	color: black;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+	text-decoration:none;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+	position: fixed;
+}
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: left;
+    margin-left: 5px;
+	
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+	
+}
+.inblock{
+	display: inline-block;
+	border: 3px solid black;
+	margin: 10px;
+	width: 210px;
+	height:315px;
+	text-align:center;
+	font-size:20px;
+}
+.center{
+	text-align:center;
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-size: 15px;
+}
+
+.pagination a:hover:not(.active) {background-color: #FF5724;}
+
+
+/*Deal page features */
+
+img.soffer{
+	width:100%;
+	height: 180px;
+}
+
+img.deals{
+	width:80px;
+	height:50px;
+}
+
+
+/*Home page */
+.slideshow-container {
+  max-width: 310px;
+  position: relative;
+  margin: auto;
+}
+
+.SpecialOffer{
+	text-align:center;
+	color:red;
+	font-size:30px;
+}
+
