@@ -1,5 +1,5 @@
 # WebDesign2017
-=====================
+=====================\
 Its an online grocery shopping site.
 
 Home Page
@@ -8,8 +8,8 @@ Home Page
 
 Subscription Page
 =====================
-	All fields are required.
-	Clicking submit will call the SubscriptionTable.php to be executed.
+	All fields are required.\
+	Clicking submit will call the SubscriptionTable.php to be executed.\
 	SubscriptionTable.php will check the user input and then connect to the database. It will insert the user input into the subscription table when the fields are not empty and return to the subscription page to display the message.
 
 Contact Us Page
