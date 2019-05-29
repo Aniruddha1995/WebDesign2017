@@ -1,6 +1,6 @@
 # WebDesign2017
 =====================\
-Its an online grocery shopping site.
+Its an online grocery shopping where customers can view all products on special and without special products and search for any particular product. Customers can also subscribe to the mailing list and also unsubscribe themselves. The system also has the admin side where admin can log in and do all the administrative work as outline below. It also displays the catalogue and updates it.
 
 Home Page
 =====================
